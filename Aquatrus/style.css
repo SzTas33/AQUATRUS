@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bona Nova SC';
+}
+
+body{
+  background-image: linear-gradient(to right, #588157,#3a5a40, #344e41  );
+
+}
+
+
+h2{
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  font-family: 'Playfair Display';
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.custom-style-li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+ul li a{
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.direction{
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #588157,#3a5a40, #344e41  );
+
+}
+
+/* Custom styles for the navbar toggler icon */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.background{
+  background: url(images/background\ image.jpg) no-repeat center center;
+  background-size: cover;
+  color: white; /* Ensure text is readable */
+  text-align: center; /* Center the text */
+  padding: 100px 0; /* Add some padding for better appearance */
+}
+
+
+
+.hero-content{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.hero-content h1{
+  font-size: clamp(50px, 8vw, 100px);
+  color: #fff;
+  font-weight: 600;
+  margin: 15px 0px;
+  text-shadow: 3px 2px black
+}
+
+.hero-content h3{
+  font-size: clamp(35px, 4vw, 50px);
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 3px 2px black
+
+}
+
+/* welcome section */
+
+.welcome{
+  background-color: #fff;
+}
+
+.welcome-text{
+  color:#344e41;
+  font-size: clamp(18px, 3vh , 25px);
+  padding: 30px;
+  line-height: 2;
+}
+
+
+/* stock section */
+
+.stock-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.stock-section h2{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.stock-section p{
+  font-size: clamp(18px, 2vh , 25px);
+  line-height: 3;
+  font-weight: 500;
+}
+
+.custom-carousel-style{
+  box-shadow: 0px -25px 20px -20px rgba(255, 255, 255, 0.752), 25px 0 20px -20px rgba(255, 255, 255, 0.752), 0px 25px 20px -20px rgba(255, 255, 255, 0.752), -25px 0 20px -20px rgba(255, 255, 255, 0.752);
+  border-radius: 40px;
+}
+
+.custom-carousel-style img{
+  border-radius: 40px;
+}
+
+/* ----------------- */
+
+.about-us{
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.about-us h2{
+  text-align: center;
+  color: #344e41;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.about-us .carousel-inner{
+  border-radius: 40px;
+}
+
+.about-us img{
+  border-radius: 40px;
+}
+
+.custom-about-us-background{
+  box-shadow: 0px -25px 20px -20px #344e41, 25px 0 20px -20px #344e41, 0px 25px 20px -20px #344e41, -25px 0 20px -20px #344e41;
+}
+
+.custom-background{
+/* From https://css.glass */
+background: rgba(113, 117, 113, 0.67);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(113, 117, 113, 0.3);
+padding: 15px;
+line-height: 2;
+}
+/* blog section */
+
+.blog{
+  color: white;
+}
+
+h5{
+  font-weight: 600;
+}
+
+.blog h2{
+  margin-bottom: 50px;
+}
+
+.custom-modal-btn{
+  background-image: linear-gradient(to right, #588157,#3a5a40, #344e41  );
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 500;
+
+}
+
+.custom-image-border{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.custom-card-style{
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-title,
+.card-text,
+.modal-title,
+.modal-body{
+  color: #344e41;
+}
+
+
+
+/* footer section */
+
+#kapcsolat{
+  padding-top: 50px;
+  color: #fff;
+
+}
+
+form label{
+  color: #fff;
+}
+
+.btn{
+  color: black;
+  background-color: #fff;
+  font-weight: 700;
+  padding: 20px 30px;
+  border: none;
+}
+
+.contact-section{
+  background-color:white;
+  font-weight: 700; 
+  color: #081c15; 
+  margin-top: 100px;
+  padding-top: 30px; 
+}
+
+
+.contact-details{
+  margin-top: 40px;
+}
+
+.social-button{
+  font-size: 50px;
+  color:#fff;
+  border: none;
+}
+
+.map{
+  max-width: 800px;
+  max-height: 300px;
+}
+
+.submit-button{
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #1b4332;
+  background-color: #fff;
+  font-weight: 600;
+}
+
